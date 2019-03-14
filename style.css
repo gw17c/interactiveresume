@@ -23,60 +23,61 @@ li {
 h2 {
 	font-size: 24px;
 	color: #fff;
-	padding: 40px 40px;
+	padding: 20px 0px 5px 150px;
 	line-height: .9em;
 	font-variant: small-caps;
 	letter-spacing: 0.1em;
-	font-style: italic;
 }
 
 a:link {
 	font-weight: bold;
-	color: #FAD956;
+	color: #000;
 	text-decoration: none;
 }
 a:visited {
 	font-weight: bold;
-	color: #FAD956;
+	color: #000;
 	text-decoration: none;
 }
 a:hover {
-	color: #A8923A;
+	color: #000;
 	text-decoration: underline;
 }
 
 img {
-	border: dotted #FAD956 1px;
+	border: inset #fff 1px;
 }
 
 #container {
-	width: 100%;
+	width: 1200px;
 	margin: 0 auto;
 	background-color: #707070;
 	overflow: hidden;
 }
 
 #header {
-	width: 100%;
+	/*width: 100%;*/
 	background-color: #f0f0f0;
 	border-bottom: 1px solid #fff;
-	padding-bottom: 0;
+	/*padding-bottom: 0;*/
 }
 
 #content {
-	width: 650px;
+	/*width: 500px;*/
 	float: left;
-	padding-bottom: 30px;
+	padding: 100px 0px 200px 230px;
+	/*padding-bottom: 1000px;
+	padding-left: 160px; */
 }
 
+
 #sidebar {
-	width: 200px;
+	width: 50px;
 	float: left;
 	margin-top: 0px;
-	margin-left: 50px;
 }
 #sidebar p{
-	padding: 20px;
+	padding: 100px 120px 20px 0px;
 }
 
 #footer {
