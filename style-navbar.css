@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+#navbar{
+	width: 100%; 
+	padding: 20px 0px;
+	overflow: hidden; 
+}	
+
+ul {
+	list-style: none; /* eliminates bullets */
+} 
+ul li {
+	float: left; /* changes list from vertical to horizontal */
+	margin-left: -10px; /* controls space between buttons/tabs */
+} 
+ul li a.button {
+	background-color: #D3D3D3; /* button/tab color */
+	color: #404040; /* font color */
+	font-size: 1em;
+	text-decoration: none; /* removes the link underline */
+	/* the padding define the size of the buttons */
+	/* increase bottom padding for tabs with hidden bottoms so tab text can be seen*/
+	padding: 6px 20px; 	
+	/* rounded corners turn buttons into tabs when bottom of button is hidden */
+	border-radius: 0px; 
+	border: solid 1px; /* 1-pixel border around buttons. */
+}
+/* styles for the currently selected page should be different to make it stand out */
+/* also you want to discourage users from clicking the button for the current page */
+ul li a.button.selected{
+	background-color: #000; /* matching the color of the content background color */
+	color: #fff; /* font color */
+	font-style: italic;
+}
+/* visited link font colors */
+ul li a.button:visited {
+	color: #404040;
+}  
+ul li a.button:visited.selected{
+	color: #fff;
+} 
+/* hover link styles */
+ul li a.button:hover {
+	background-color: #000;
+	color: #fff;
+} 
+/* selected button shouldn't change on hover */ 
+ul li a.button:hover.selected{ 
+	background-color: #000;
+	color: #fff;
+} 
