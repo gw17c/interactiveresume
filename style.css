@@ -29,6 +29,16 @@ h2 {
 	letter-spacing: 0.1em;
 }
 
+h3 {
+	font-size: 32px;
+	color: #fff;
+	padding: 5px 0px;
+	line-height: .9em;
+	font-variant: small-caps;
+	letter-spacing: 0.1em;
+	border-bottom-style: double;
+}
+
 a:link {
 	font-weight: bold;
 	color: #000;
@@ -48,6 +58,18 @@ img {
 	border: inset #fff 1px;
 }
 
+table, th, td {
+  /*border-bottom: 1px solid #ddd;*/
+  text-align: left;
+  padding: 1px 0;
+}
+th {
+	font-size: 25px;
+	font-variant: small-caps;
+	padding-bottom: 15px;
+	padding-top: 0;
+}
+
 #container {
 	width: 1200px;
 	margin: 0 auto;
@@ -65,11 +87,25 @@ img {
 #content {
 	/*width: 500px;*/
 	float: left;
-	padding: 100px 0px 200px 230px;
+	padding: 75px 250px 150px 250px;
 	/*padding-bottom: 1000px;
 	padding-left: 160px; */
 }
 
+#table a {
+	color: #fff;
+	text-decoration: none;
+	/*font-style: normal;
+	font-variant: small-caps;
+	font-size: 16px;
+	padding-right: 50px;*/
+}
+
+#table a:hover {
+	color: #2e2e2e;
+	text-decoration: none;
+	font-style: normal;
+}
 
 #sidebar {
 	width: 50px;
