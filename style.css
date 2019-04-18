@@ -67,7 +67,7 @@ th {
 	font-size: 25px;
 	font-variant: small-caps;
 }
-tr:nth-child(even) {background-color: #000;}
+tr:nth-child(even) {background-color: #3d3d3d;}
 
 #container {
 	width: 1200px;
