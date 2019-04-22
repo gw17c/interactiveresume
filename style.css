@@ -68,7 +68,7 @@ th {
 	line-height: .9em;
 	text-align: center;
 	font-variant: small-caps;
-	background-color: #3d3d3d;;
+	background-color: #3d3d3d;
 	
 }
 tr:nth-child(odd) {background-color: #3d3d3d;}
@@ -131,6 +131,7 @@ tr:nth-child(odd) {background-color: #3d3d3d;}
 #skills ol {
 	list-style-type: circle;
 	columns: 2;
+	column-count: 2;
 
 }
 #skills li {
