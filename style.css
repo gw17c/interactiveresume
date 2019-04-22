@@ -65,9 +65,14 @@ table, th, td {
 }
 th {
 	font-size: 25px;
+	line-height: .9em;
+	text-align: center;
 	font-variant: small-caps;
+	background-color: #3d3d3d;;
+	
 }
-tr:nth-child(even) {background-color: #3d3d3d;}
+tr:nth-child(odd) {background-color: #3d3d3d;}
+
 
 #container {
 	width: 1200px;
@@ -107,7 +112,8 @@ tr:nth-child(even) {background-color: #3d3d3d;}
 }
 
 #table a:hover {
-	color: #ffff00;
+	color: #fff;
+	opacity: 0.8;
 	text-decoration: none;
 	font-style: normal;
 }
@@ -120,6 +126,16 @@ tr:nth-child(even) {background-color: #3d3d3d;}
 }
 #sidebar p{
 	padding: 80px 0px 80px 0px;
+}
+
+#skills ol {
+	list-style-type: circle;
+	columns: 2;
+
+}
+#skills li {
+	letter-spacing: 0.1em;
+	padding: 4px 5px;
 }
 
 #footer {
