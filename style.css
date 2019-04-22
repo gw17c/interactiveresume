@@ -68,7 +68,6 @@ th {
 	line-height: .9em;
 	text-align: center;
 	font-variant: small-caps;
-	background-color: #3d3d3d;
 	
 }
 tr:nth-child(odd) {background-color: #3d3d3d;}
@@ -116,6 +115,9 @@ tr:nth-child(odd) {background-color: #3d3d3d;}
 	opacity: 0.8;
 	text-decoration: none;
 	font-style: normal;
+}
+#table th {
+	background-color: #3d3d3d;
 }
 
 #sidebar {
